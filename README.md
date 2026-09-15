@@ -35,7 +35,7 @@ Then open `http://localhost:8766/index.html`.
   message. Wire `[data-lead-form]`'s submit handler to a real endpoint (Formspree, a CRM webhook,
   Google Apps Script, etc.) before relying on it to capture leads.
 - "Book Career Counselling" links via `tel:` to the number in `data.py`'s `SITE` dict.
-- Course fees (₹7,000 onwards) and per-module week/hour estimates are indicative — the source
+- Course fees (₹70,000 onwards) and per-module week/hour estimates are indicative — the source
   brochure gives total program duration (8 months) but not a per-module hour breakdown, so weeks/
   hours per module were estimated proportionally at ~10 hrs/week and should be confirmed against
   the actual batch schedule before publishing.

@@ -135,6 +135,18 @@ header.site{
 .floating-badge-2{bottom:-14px;right:-18px;color:var(--accent-2);}
 .floating-badge-2 .dot{background:var(--accent-2);}
 
+.hero-quote{
+  position:relative;margin-top:28px;padding:20px 22px 18px;
+  background:linear-gradient(135deg, rgba(12,154,131,.06), rgba(37,99,235,.06));
+  border:1px solid var(--border);border-left:3px solid var(--accent);border-radius:var(--radius);
+}
+.hero-quote-mark{
+  position:absolute;top:-6px;left:16px;font-family:Georgia,serif;font-size:52px;line-height:1;
+  color:var(--accent);opacity:.35;
+}
+.hero-quote blockquote{margin:0 0 8px;font-size:16px;font-style:italic;font-weight:600;color:var(--text);line-height:1.4;}
+.hero-quote cite{font-size:12.5px;font-style:normal;font-weight:600;color:var(--text-faint);}
+
 .hero-stats-row{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:22px;}
 .meta-card{
   background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);
